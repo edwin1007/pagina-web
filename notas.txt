@@ -1,0 +1,13 @@
+avance 6:00 hh
+avance 6:04 hh
+
+metatags.io: genera meta etiquetas para subir paginas a internet.
+pendiente subir pagina a internet.
+
+echo "# pagina-web" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/edwin1007/pagina-web.git
+git push -u origin main
